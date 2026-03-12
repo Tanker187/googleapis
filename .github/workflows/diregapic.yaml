@@ -1,5 +1,8 @@
 ---
 name: DIREGAPIC Updater
+permissions:
+  contents: write
+  pull-requests: write
 on:  # yamllint disable-line rule:truthy
   schedule:
   - cron: '19 */8 * * *'
