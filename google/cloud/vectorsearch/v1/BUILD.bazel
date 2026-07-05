@@ -29,6 +29,7 @@ proto_library(
         "data_object_search_service.proto",
         "data_object_service.proto",
         "embedding_config.proto",
+        "encryption_spec.proto",
         "vectorsearch_service.proto",
     ],
     deps = [
